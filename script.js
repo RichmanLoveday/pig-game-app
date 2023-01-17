@@ -54,7 +54,7 @@ rollDice.addEventListener('click', function (event) {
 
     // Display dice randomly
     diceImage.classList.remove('hidden');
-    diceImage.src = `dice-${dice}.png`;
+    diceImage.src = `images/dice-${dice}.png`;
     // console.log(diceImage.src);
 
     //  variable to hold currvalues
